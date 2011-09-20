@@ -40,6 +40,8 @@ While I've not actually tested (this is version 0 after all), the links should n
 1. Display Admin Bar links
 
 == Changelog ==
+= 0.2.1 =
+* Fixed typo in the Plugin URL
 = 0.2.0 =
 * Added a submenu (off of View Library) to display/link to those books you are currently reading.
 = 0.1.0 =
@@ -48,6 +50,8 @@ While I've not actually tested (this is version 0 after all), the links should n
 = 0.0.0 =
 * Initial release
 == Upgrade Notice ==
+= 0.2.1 =
+Fixed typo
 = 0.2.0 =
 Adds a submenu to display/link (off of View Library) to those books you are currently reading.
 = 0.1.0 =
