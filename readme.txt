@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=manza
 Tags: adminbar, now-reading
 Requires at least: 3.1
 Tested up to: 3.3-aortic-dissection
-Stable tag: 0.1.0
+Stable tag: 0.2.2
 
 Adds the Now-Reading menu links to the new admin bar introduced in WordPress 3.1
 
@@ -40,6 +40,10 @@ While I've not actually tested (this is version 0 after all), the links should n
 1. Display Admin Bar links
 
 == Changelog ==
+= 0.2.2 =
+* Updating the forgotten version/stable version tags after committing 0.2.1.
+= 0.2.1 =
+* Fixed typo in the Plugin URL
 = 0.2.0 =
 * Added a submenu (off of View Library) to display/link to those books you are currently reading.
 = 0.1.0 =
@@ -48,6 +52,8 @@ While I've not actually tested (this is version 0 after all), the links should n
 = 0.0.0 =
 * Initial release
 == Upgrade Notice ==
+= 0.2.1 =
+Fixed typo
 = 0.2.0 =
 Adds a submenu to display/link (off of View Library) to those books you are currently reading.
 = 0.1.0 =

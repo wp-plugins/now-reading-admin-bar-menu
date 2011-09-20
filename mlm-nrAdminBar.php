@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Now-Reading Admin Bar Menu
-Plugin URI: wordpress.org/extend/plugins/now-reading-admin-bar-menu/
+Plugin URI: http://wordpress.org/extend/plugins/now-reading-admin-bar-menu/
 Description: Adds the Now-Reading menu links to the new admin bar introduced in WordPress 3.1
-Version: 0.2.0
+Version: 0.2.2
 Author: Mark McKibben
 Author URI: http://coffeebear.net/
 */
