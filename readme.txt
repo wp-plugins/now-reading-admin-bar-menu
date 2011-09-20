@@ -1,9 +1,10 @@
 === Now-Reading Admin Bar Menu ===
 Contributors: manzabar
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=manzabar%40gmail%2ecom&lc=US&item_name=Now%2dReading%20Admin%20Bar%20Menu&item_number=wpextend%2dmlmnr&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Tags: adminbar, now-reading
 Requires at least: 3.1
-Tested up to: 3.1
-Stable tag: 0.0.0
+Tested up to: 3.3-aortic-dissection
+Stable tag: 0.1.0
 
 Adds the Now-Reading menu links to the new admin bar introduced in WordPress 3.1
 
@@ -39,5 +40,17 @@ While I've not actually tested (this is version 0 after all), the links should n
 1. Display Admin Bar links
 
 == Changelog ==
+= 0.2.0 =
+* Added a submenu (off of View Library) to display/link to those books you are currently reading.
+= 0.1.0 =
+* Added a link to view your library from the admin bar menu.
+* This version was not published to the WordPress Plugin directory, as I kept trying (and failing) to add support for translating it.
 = 0.0.0 =
 * Initial release
+== Upgrade Notice ==
+= 0.2.0 =
+Adds a submenu to display/link (off of View Library) to those books you are currently reading.
+= 0.1.0 =
+Adds a link to view your library from the admin bar menu.
+== TODO ==
+* Add [I18n](http://codex.wordpress.org/I18n_for_WordPress_Developers) support.
