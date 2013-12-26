@@ -3,8 +3,8 @@ Contributors: manzabar
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=manzabar%40gmail%2ecom&lc=US&item_name=Now%2dReading%20Admin%20Bar%20Menu&item_number=wpextend%2dmlmnr&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Tags: adminbar, now-reading
 Requires at least: 3.1
-Tested up to: 3.3-aortic-dissection
-Stable tag: 0.2.2
+Tested up to: 3.8
+Stable tag: 0.2.3
 
 Adds the Now-Reading menu links to the new admin bar introduced in WordPress 3.1
 
@@ -40,6 +40,8 @@ While I've not actually tested (this is version 0 after all), the links should n
 1. Display Admin Bar links
 
 == Changelog ==
+= 0.2.3 =
+* I've been forgetful about updating the tested up to version, but I've not had any problems using this plugin with WordPress 3.8.
 = 0.2.2 =
 * Updating the forgotten version/stable version tags after committing 0.2.1.
 = 0.2.1 =
