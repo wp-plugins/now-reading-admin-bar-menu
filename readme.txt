@@ -40,6 +40,8 @@ While I've not actually tested (this is version 0 after all), the links should n
 1. Display Admin Bar links
 
 == Changelog ==
+= 0.2.4 =
+* Tested and working with WordPress 4.0.
 = 0.2.3 =
 * I've been forgetful about updating the tested up to version, but I've not had any problems using this plugin with WordPress 3.8.
 = 0.2.2 =
