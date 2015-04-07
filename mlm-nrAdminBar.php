@@ -3,7 +3,7 @@
 Plugin Name: Now-Reading Admin Bar Menu
 Plugin URI: http://wordpress.org/extend/plugins/now-reading-admin-bar-menu/
 Description: Adds the Now-Reading menu links to the new admin bar introduced in WordPress 3.1
-Version: 0.2.4
+Version: 0.2.5
 Author: Mark McKibben
 Author URI: http://coffeebear.net/
 */
@@ -22,14 +22,14 @@ function mlm_nr_admin_bar()
 			global $wp_admin_bar, $nr_id;
 			$url = site_url();
 			$nr_options = get_option('nowReadingOptions');
-	
+
 			if ($nr_options['useModRewrite'] == 'on') {
 				$library = $nr_options['permalinkBase'];
 			} else {
 				$library = '?now_reading_library=true';
 			}
 			$library_url = $url .'/' . $library;
-	
+
 			$wp_admin_bar->add_menu( array( 'id' => 'mlm-nr-menu', 'title' => __( 'Now Reading', 'mlmnr' ), 'href' => admin_url('admin.php?page=add_book'), ) );
 			$wp_admin_bar->add_menu( array( 'parent' => 'mlm-nr-menu', 'id' => 'mlm-nr-add', 'title' => __( 'Add a Book', 'mlmnr' ), 'href' =>  admin_url('admin.php?page=add_book'), ) );
 			$wp_admin_bar->add_menu( array( 'parent' => 'mlm-nr-menu', 'id' => 'mlm-nr-manage', 'title' => __( 'Manage Books', 'mlmnr' ), 'href' => admin_url('admin.php?page=manage_books'), ) );
